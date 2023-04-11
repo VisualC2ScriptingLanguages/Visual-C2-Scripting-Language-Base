@@ -1,0 +1,49 @@
+.box {
+    width: 75px;
+    height: 75px;
+    background-color: lightblue;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: 2px solid black;
+  }
+
+  .vertical-line {
+    position: absolute;
+    top: 0;
+    left: 7%;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+  .inpin {
+    width:  7.5px;
+    height: 7.5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.outpin {
+    width:  7.5px;
+    height: 7.5px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+
+
+  .box:active {
+    cursor: grabbing;
+  }
+
